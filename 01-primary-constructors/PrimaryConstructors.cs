@@ -1,5 +1,7 @@
 ﻿namespace _01_primary_constructors;
 
+// https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors?WT.mc_id=DOP-MVP-5001655#primary-constructors
+
 public class TraditionalClass
 {
     private string Name { get; set; }

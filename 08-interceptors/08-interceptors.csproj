@@ -5,6 +5,9 @@
     <RootNamespace>_08_interceptors</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<OutputType>Exe</OutputType>
+	  <Features>InterceptorsPreview</Features>
+	  <InterceptorsPreviewNamespaces>_08_interceptors</InterceptorsPreviewNamespaces>
   </PropertyGroup>
 
 </Project>

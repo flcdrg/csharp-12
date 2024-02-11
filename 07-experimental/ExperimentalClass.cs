@@ -3,7 +3,7 @@
 namespace _07_experimental;
 
 // https://learn.microsoft.com/dotnet/csharp/language-reference/attributes/general?WT.mc_id=DOP-MVP-5001655#experimental-attribute
-
+// Kind of opposite to Obsolete
 [Experimental("DAVID01")]
 public class ExperimentalClass
 {

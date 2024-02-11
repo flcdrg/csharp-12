@@ -6,12 +6,15 @@ namespace _06_alias;
 
 using S = System.String;
 using P = Tuple<string, string, int>;
+using C = char[];
 
 public class Aliases
 {
     public void Thing()
     {
         S s = "Hello";
+
+        C chars = s.ToCharArray();
 
         P p = new("Hello", "World", 42);
     }

@@ -13,7 +13,7 @@ public class RefReadonly
 
     public static void ByRefReadonly(ref readonly Point p)
     {
-        // p = new Point(2, 3);
+        //p = new Point(2, 3);
         Console.WriteLine(p);
 
     }

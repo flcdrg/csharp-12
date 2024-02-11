@@ -34,3 +34,11 @@ public struct PrimaryConstructorStruct(string name)
 
     private string otherThing;
 }
+
+public class Test
+{
+    public void TestMethod()
+    {
+        var primaryConstructorClass = new PrimaryConstructorClass("test");
+    }
+}

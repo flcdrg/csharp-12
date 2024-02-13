@@ -20,24 +20,27 @@ public class TraditionalCollections
     }
 }
 
+#region Collection Expressions
 public class CollectionExpressions
 {
-    private int[] numbers = [ 1, 2, 3, 4, 5 ];
+    private int[] numbers = [1, 2, 3, 4, 5];
 
-    private List<int> numbersList = [ 1, 2, 3, 4, 5 ];
+    private List<int> numbersList = [1, 2, 3, 4, 5];
 
     private void Thing()
     {
-        string[] stuff = [ "a", "b", "c" ];
+        string[] stuff = ["a", "b", "c"];
 
         // Not this
         //var otherStuff = [ "a", "b", "c"];
 
-        IEnumerable<int> numbers = [ 1, 2, 3, 4, 5 ];
+        IEnumerable<int> numbers = [1, 2, 3, 4, 5];
         numbers.Average();
 
-        var average = ((IEnumerable<int>) [ 1, 2, 3, 4, 5 ]).Average();
+        var average = ((IEnumerable<int>)[1, 2, 3, 4, 5]).Average();
 
         Array.Sort<string>(["a", "b", "c"]);
     }
 }
+
+#endregion

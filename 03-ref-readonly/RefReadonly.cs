@@ -1,4 +1,4 @@
-﻿namespace _05_ref_readonly;
+﻿namespace _03_ref_readonly;
 
 // https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/method-parameters?WT.mc_id=DOP-MVP-5001655#ref-readonly-modifier
 

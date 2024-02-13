@@ -1,4 +1,4 @@
-﻿namespace _03_inline_arrays;
+﻿namespace _06_inline_arrays;
 
 // https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/struct?WT.mc_id=DOP-MVP-5001655#inline-arrays
 

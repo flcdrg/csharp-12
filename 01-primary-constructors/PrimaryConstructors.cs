@@ -12,6 +12,7 @@ public class TraditionalClass
     }
 }
 
+#region Primary Constructors
 public class PrimaryConstructorClass(string name)
 {
     private string Name { get; init; } = name;
@@ -42,3 +43,4 @@ public class Test
         var primaryConstructorClass = new PrimaryConstructorClass("test");
     }
 }
+#endregion

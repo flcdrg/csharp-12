@@ -10,6 +10,7 @@
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/04-optional-params-lambda/04-optional-params-lambda.csproj",
+            
         },
         {
             "name": "C#: Ref Readonly",
